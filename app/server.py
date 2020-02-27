@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/ulr9mo0mxcm8tix/stage-2.pth?dl=1'
+model_file_url = 'https://www.dropbox.com/s/p5qojnty9d0kema/stage-1.pth?raw=1'
 model_file_name = 'model'
 classes = ['fighting','fps','moba','platformer','puzzle','racing','rpg','rts','sports']
 path = Path(__file__).parent
