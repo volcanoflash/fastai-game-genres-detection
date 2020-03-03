@@ -8,9 +8,9 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/p5qojnty9d0kema/stage-1.pth?raw=1'
+model_file_url = 'https://www.dropbox.com/s/r5ib06ylxhjddte/stage-2.pth?raw=1'
 model_file_name = 'model'
-classes = ['fighting','fps','moba','platformer','puzzle','racing','rpg','rts','sports']
+classes = ['fighting','fps','platformer','puzzle','racing','rpg','rts']
 path = Path(__file__).parent
 
 app = Starlette()
